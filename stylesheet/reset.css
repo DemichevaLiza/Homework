@@ -1,0 +1,98 @@
+.div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+.diva {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    animation-name: examplea;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes examplea {
+    from {background-color: purple;}
+    to {background-color: orange;}
+}
+
+.div2 {
+width: 100px;
+height: 100px;
+background: red;
+position: relative;
+animation-name: animation;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+
+  @keyframes animation {
+    0%   {background-color: red; left:0px; top:0px;}
+    25%  {background-color: purple; left:0px; top:150px;}
+    50%  {background-color: blue; left:50px; top:150px;}
+    75%  {background-color: orange; left:50px; top:0px;}
+    100% {background-color: red; left:0px; top:0px;}
+}
+
+.div2a {
+width: 100px;
+height: 100px;
+background: red;
+position: relative;
+animation-name: copy;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+
+  @keyframes copy {
+    0%   {background-color: red; right: 0px; top:0px;}
+    25%  {background-color: orange; right: 0px; top:150px;}
+    50%  {background-color: purple; right:50px; top:150px;}
+    75%  {background-color: blue; right:50px; top:0px;}
+    100% {background-color: red; right:0px; top:0px;}
+}
+
+.div3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: leftandright;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftandright {
+    0%   {background-color: red; left: 0px;top: 0px;}
+    50%  {background-color: blue; left: 0px; top: 100px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+
+.div4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: speed;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes speed {
+    0%   {background-color: red; right: 0px;}
+    50%  {background-color: blue; right: 50px;}
+    100% {background-color: red; right: 0px;}
+}
